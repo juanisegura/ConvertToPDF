@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.doc\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.doc\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.xls\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.xls\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.xlsx\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.xlsx\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ppt\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ppt\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pptx\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pptx\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Convertir a PDF]
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\Convertir a PDF\command]
+@="wscript.exe \"C:\\Scripts\\ConvertToPDF\\RunConvert.vbs\" \"%1\""

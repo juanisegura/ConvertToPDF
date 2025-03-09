@@ -1,0 +1,2 @@
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ""C:\Scripts\ConvertToPDF\ConvertToPDF.ps1"" """ & WScript.Arguments(0) & """", 0, True
